@@ -1,5 +1,27 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+::after, ::before{
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  width: 100%;
+}
+
+.AppApp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: #FF6060;
 }
 
 .App-logo {
@@ -26,13 +48,4 @@
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

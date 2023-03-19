@@ -1,0 +1,38 @@
+.accueil{
+    position: relative;
+    border-radius: 25px;
+}
+
+.banniere{
+    border-radius: 25px;
+    width: 1300px;
+    object-fit: cover;
+    height: 250px;
+    filter: brightness(60%)
+}
+
+.titre_accueil{
+    font-size: 50px;
+    position: absolute;
+    top: 45px;
+    right: 300px;
+    color: white;
+}
+
+
+.gallery{
+    border-radius: 25px;
+    width: 1300px;
+    padding-top: 0px;
+    background-color: #F7F7F7;
+    padding: 70px;
+}
+
+.main{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+}
+

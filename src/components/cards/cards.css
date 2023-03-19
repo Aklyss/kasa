@@ -1,0 +1,39 @@
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0));
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.card__img{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        opacity: 0.6;
+
+
+}
+
+.card__p{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 1;
+    font-size: large;
+    color: white;
+    font-weight: 700;
+}
+

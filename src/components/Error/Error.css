@@ -1,0 +1,30 @@
+.main_error{
+    font-size: 450px;
+    background-color: white;
+    color: #FF6060;
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+}
+
+.error{
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_error{
+    color: #FF6060;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.link_error{
+    font-size: 25px;
+    color: #FF6060;
+    margin-top: 200px;
+}
+
+a:hover {
+    border-bottom: 2px solid #FF6060;
+}

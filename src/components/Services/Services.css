@@ -1,0 +1,53 @@
+.propos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tit{
+    width: 70%;
+}
+
+.main__rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    margin: 50px 0;
+    width: 80%;
+}
+
+.rectangle {
+    background-color: #FF6060;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 50px;
+}
+
+.tit p{
+     background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin: -10px 0;
+    padding: 15px 20px;
+    height: calc(100% - 39px);
+    border-radius: 10px;
+}
+
+.rectangle h3{
+    font-size: 25px;
+    position: absolute;
+    left: 3%;
+}
+
+.fa-chevron-down{
+    font-size: 30px;
+    position: absolute;
+    right: 3%;
+}
