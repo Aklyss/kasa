@@ -4,6 +4,7 @@
 }
 
 .banniere{
+    display: flex;
     border-radius: 25px;
     width: 1300px;
     object-fit: cover;

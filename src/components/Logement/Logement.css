@@ -28,7 +28,7 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    margin-left: 35px;
+    margin-left: 20px;
 }
 
 .host span{
@@ -39,7 +39,7 @@
 .host p{
     font-weight: 800;
     font-size: 25px;
-    width: 70px;
+    width: 110px;
     padding: 0px;
     text-align: right;
 }
@@ -86,17 +86,9 @@
     width: 45%;
 }
 
-.rectangle {
-    background-color: #FF6060;
-    border-radius: 5px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    height: 50px;
-    padding-left: 20px;
+.rectangle:hover,
+.rectangle:focus {
+    background-color: #ff957a;
 }
 
 .info p{
@@ -106,14 +98,11 @@
     color: #FF6060;
     margin: -10px 0 ;
     height: calc(100% - 39px);
-    display: flex;
-    flex-direction: column;
     border-radius: 10px;
 }
 
 .info ul{
     background-color: #f7f7f7;
-    display: flex;
     flex-direction: column;
     row-gap: 5px;
     margin: -10px 0;
@@ -127,3 +116,13 @@
     color: #FF6060;
     margin-left: 0;
 }
+
+
+.ouvert5, .ouvert6 {
+    display: flex;
+}
+
+.ferme5, .ferme6{
+    display: none;
+}
+

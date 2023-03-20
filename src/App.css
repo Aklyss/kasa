@@ -17,6 +17,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 a{
@@ -44,8 +63,4 @@ a{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }

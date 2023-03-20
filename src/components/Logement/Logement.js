@@ -2,12 +2,14 @@ import React from 'react'
 import './Logement.css'
 import { useParams } from 'react-router-dom'
 import { stockData } from "../../datas/datas"
+import { useState } from 'react'
 
 
 export default function Logement() {
     const params = useParams()
     const data = stockData.find(x => x.id === params.id)
-    console.log(data)
+    const [des, setDes] = useState(false);
+    const [equ, setEqu] = useState(false);
     return (
         <div className='main'>
         <section className='sec_car'>
@@ -34,18 +36,18 @@ export default function Logement() {
             </div>
             <div className='info'>
                 <div className='desc'>
-                    <div className='rectangle'>
+                        <div className='rectangle' onClick={() => { setDes(!des) }}>
                         <h2>Description</h2>
-                        <i className="fa-solid fa-chevron-down"></i>
+                            <i className="fa-solid fa-chevron-down" id={`${des ? 'up5' : 'down5'}`}></i>
                     </div>
-                    <p>{data.description}</p>
+                        <p className={`${des ? 'ouvert5' : 'ferme5'}`}>{data.description}</p>
                 </div>
                 <div className='desc'>
-                    <div className='rectangle'>
+                        <div className='rectangle' onClick={() => { setEqu(!equ) }}>
                         <h3>Equipments</h3>
-                        <i className="fa-solid fa-chevron-down"></i>
+                            <i className="fa-solid fa-chevron-down" id={`${equ ? 'up6' : 'down6'}`}></i>
                     </div>
-                        <ul>
+                        <ul className={`${equ ? 'ouvert6' : 'ferme6'}`}>
                             {data.equipments.map((x, index) => <li key={index}>{x}</li>)}
                         </ul>
                 </div>
