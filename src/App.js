@@ -1,9 +1,9 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom"
-import Home from "./components/Home/Home"
-import Services from "./components/Services/Services"
-import Logement from "./components/Logement/Logement"
-import Error from './components/Error/Error'
+import Home from "./pages/Home/Home"
+import Services from "./pages/Services/Services"
+import Logement from "./pages/Logement/Logement"
+import Error from './pages/Error/Error'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer';
 

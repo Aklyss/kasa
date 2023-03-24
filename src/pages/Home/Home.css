@@ -1,12 +1,17 @@
 .accueil{
     position: relative;
     border-radius: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banniere{
     display: flex;
     border-radius: 25px;
-    width: 1300px;
+    max-width: 1300px;
+    width: 100%;
     object-fit: cover;
     height: 250px;
     filter: brightness(60%)
@@ -15,9 +20,8 @@
 .titre_accueil{
     font-size: 50px;
     position: absolute;
-    top: 45px;
-    right: 300px;
     color: white;
+    text-align: center;
 }
 
 
@@ -37,3 +41,12 @@
         row-gap: 50px;
 }
 
+@media screen and (max-width: 900px) {
+    .banniere {
+        height: 150px;
+    }
+        .titre_accueil {
+            font-size: 30px;
+        }
+
+}

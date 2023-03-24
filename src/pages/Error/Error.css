@@ -11,6 +11,7 @@
     height: 88vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .text_error{
@@ -27,4 +28,15 @@
 
 a:hover {
     border-bottom: 2px solid #FF6060;
+}
+
+@media screen and (max-width: 900px){
+    .text_error{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main_error{
+        font-size: 220px;
+    }
 }

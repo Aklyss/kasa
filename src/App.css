@@ -17,6 +17,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+    min-height: 100vh;
+  position: relative;
+  padding-bottom: 230px;
+  
 
 
 }
@@ -35,7 +39,14 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    max-width: 1300px;
+    width: 95%;
+}
+
+@media screen and (max-width: 900px) {
+  .App{
+      width: 90%;
+  }
 }
 
 a{

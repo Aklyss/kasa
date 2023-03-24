@@ -1,6 +1,6 @@
 import React from 'react'
 import {stockData} from "../../datas/datas"
-import "./cards.css"
+import "./Cards.css"
 import { Link } from 'react-router-dom'
 
 

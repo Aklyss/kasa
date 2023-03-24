@@ -1,0 +1,135 @@
+.main{
+    width: 100%;
+    align-items: center;
+}
+
+.main section{
+    width: 100%;
+}
+
+.host img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.host span{
+    display: flex;
+    flex-direction: row;
+}
+
+.host p{
+    font-weight: 800;
+    font-size: 25px;
+    width: 110px;
+    padding: 0px;
+    text-align: right;
+}
+
+.affiche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #FF6060;
+}
+
+.affiche h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.affiche h2{
+    font-size: 20px;
+}
+
+.affiche ul{
+    color: #ffffff;
+    column-gap: 20px;
+}
+
+.affiche ul li{
+    padding-right: 10px;
+    background-color: #FF6060;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 20px;
+    margin-left: 0;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.desc{
+    width: 45%;
+}
+
+
+
+.ouvert5, .ouvert6 {
+    display: flex;
+}
+
+.ferme5, .ferme6{
+    display: none;
+}
+
+@media screen and (max-width: 900px){
+    .affiche{
+        flex-direction: column;
+    }
+    .main{
+        row-gap: 0;
+    }
+    .affiche div{
+        width: 100%;
+    }
+    .affiche h1 {
+        font-size: 25px;
+        margin: 15px 0px;
+    }
+    .affiche ul li {
+        font-size: 15px;
+    }
+    .host{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+    }
+
+    .host span{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .host p{
+        margin: 0;
+        display: flex;
+    }
+
+    .host img {
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+    }
+        .host p {
+            font-size: 15px;
+            width: 70px;
+        }
+    .info{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .desc{
+        width: 100%;
+    }
+}
