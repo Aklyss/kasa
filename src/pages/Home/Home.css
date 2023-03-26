@@ -30,7 +30,7 @@
     width: 1300px;
     padding-top: 0px;
     background-color: #F7F7F7;
-    padding: 70px;
+    padding: 70px 0;
 }
 
 .main{
@@ -48,5 +48,20 @@
         .titre_accueil {
             font-size: 30px;
         }
+
+}
+
+@media screen and (max-width: 500px) {
+    .banniere {
+        height: 120px;
+        border-radius: 10px;
+    }
+    .titre_accueil {
+        font-size: 20px;
+    }
+    .gallery{
+        background-color: white;
+    }
+
 
 }

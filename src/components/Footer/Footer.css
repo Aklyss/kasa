@@ -26,3 +26,16 @@
         font-size: 10px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .main-footer {
+        height: 150px;
+        font-size: 9px;
+    }
+        .logow {
+            width: 100px;
+        }
+        .main-footer{
+            padding-top: 33px;
+        }
+}

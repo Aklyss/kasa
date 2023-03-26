@@ -84,3 +84,29 @@
             transform: rotate(270deg) scale(1.3);
         }
 }
+
+@media screen and (max-width: 500px) {
+    .sec_car {
+            height: 260px;
+            border-radius: 10px;
+        }
+    
+        .car_img {
+            height: 260px;
+        }
+    
+        .dg {
+            top: 110px;
+            font-size: 30px;
+        }
+    
+#g {
+    left: 10px;
+
+}
+
+#d {
+    right: 10px;
+}
+    
+}

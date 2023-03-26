@@ -40,3 +40,17 @@ a:hover {
         font-size: 220px;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .main_error {
+        font-size: 130px;
+        margin-top: 200px;
+    }
+
+        .text_error {
+            font-size: 20px;
+        }
+                .link_error {
+                    font-size: 18px;
+                }
+}

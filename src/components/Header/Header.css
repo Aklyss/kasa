@@ -46,3 +46,19 @@ li {
             margin-left: 30px;
         }
 }
+
+@media screen and (max-width: 500px) {
+    li {
+            font-size: 17px;
+            margin-left: 10px;
+        }
+                
+        
+                header img {
+                    width: 100px;
+                }
+                                 header {
+                                     height:80px;
+                                 }
+
+}
