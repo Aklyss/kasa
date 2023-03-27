@@ -26,6 +26,7 @@ export default function Carrousel({pictures}) {
                     prec()
 
                 }}></i>
+            <p className='indic'>{index + 1}/{pictures.length}</p>
             </section>
     )
 }

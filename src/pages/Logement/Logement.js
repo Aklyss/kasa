@@ -2,7 +2,6 @@ import React from 'react'
 import './Logement.css'
 import { useParams } from 'react-router-dom'
 import { stockData } from "../../datas/datas"
-import { useState } from 'react'
 import Carrousel from '../../components/Carrousel/Carrousel'
 import Collapse from '../../components/Collapse/Collapse'
 import note1 from '../../Images/Logos/icone1.png'
