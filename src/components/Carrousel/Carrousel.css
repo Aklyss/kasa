@@ -1,5 +1,5 @@
 .car_img {
-    height: 500px;
+    height: 415px;
     width: 1240px;
     margin: 0;
     display: flex;
@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 500px;
+    height: 415px;
     width: 90%;
     border-radius: 25px;
     position: relative;
@@ -29,7 +29,7 @@
     position: absolute;
     font-size: 100px;
     cursor: pointer;
-    top: 200px;
+    top: 160px;
     color: white;
 }
 
@@ -95,12 +95,12 @@
 
 @media screen and (max-width: 500px) {
     .sec_car {
-            height: 260px;
+            height: 255px;
             border-radius: 10px;
         }
     
         .car_img {
-            height: 260px;
+            height: 255px;
         }
     
         .dg {

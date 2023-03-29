@@ -10,7 +10,6 @@ export default function Carrousel({pictures}) {
     }
     function prec() {
         setIndex(index > 0 ? index - 1 : pictures.length -1);
-
     }
     console.log(pictures)
     return (
@@ -19,6 +18,7 @@ export default function Carrousel({pictures}) {
                     <img className='car_img' key={index} src={pictures[index]} ></img>
                 </div>
                 { pictures.length > 1 &&
+                
                 <>
                 <i className="fa-solid fa-chevron-down dg" id='d' onClick={() => {
                     next()
@@ -31,6 +31,7 @@ export default function Carrousel({pictures}) {
 
             <p className='indic'>{index + 1}/{pictures.length}</p>
             </>
+
             }
             </section>
     )
