@@ -135,6 +135,7 @@ list-style-type: none;
     .host p{
         margin: 0;
         display: flex;
+        margin-right: 20px;
     }
 
     .host span img {
@@ -168,6 +169,7 @@ list-style-type: none;
         }
         .host p{
             font-size: 15px;
+            margin: 0;
         }
         .affiche ul li {
             font-size: 12px;

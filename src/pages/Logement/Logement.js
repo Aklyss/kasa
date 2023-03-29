@@ -6,11 +6,15 @@ import Carrousel from '../../components/Carrousel/Carrousel'
 import Collapse from '../../components/Collapse/Collapse'
 import note1 from '../../Images/Logos/icone1.png'
 import note2 from '../../Images/Logos/icone2.png'
+import Error from '../Error/Error'
 
 export default function Logement() {
     const params = useParams()
     const data = stockData.find(x => x.id === params.id)
-
+    if(!data){
+        return(<Error></Error>)
+    }
+    
     return (
         <div className='main'>
             <Carrousel pictures={data.pictures}>
